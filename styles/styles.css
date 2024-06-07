@@ -122,13 +122,13 @@ header ul > li > a {
     max-width: 100%; /* Ensure the image container doesn't exceed the viewport width */
     height: auto; /* Allow the height to adjust automatically based on the image's aspect ratio */
     overflow: hidden; /* Hide any overflow beyond the container */
-    border-radius:10px;
+    
 }
 
 .home-image img {
     display: block;
     max-width: 100%;
-    
+    border-radius:10px;
 }
 
 
@@ -136,7 +136,7 @@ button {
     border: 2px solid #8FBC8F;
     padding: 0.2em 0.4em;
     border-radius: 0.4em;
-    background-color:#2d6a4f;
+    background-color:#333333;
     transition: 1s;
     width: 30%;
 }
@@ -160,7 +160,7 @@ button {
 }
 
 #products ul > li {
-    border: 1px solid #fff;
+    
     width: 300px;
     height: 300px;
     display: block;
@@ -170,11 +170,67 @@ button {
 li > img {
     border: 1px solid #fff;
     width: 300px;
-    
+    border-radius:5px;
     display: block;
 }
 
 li p {
     margin-top: 16px;
     color: #333333;
+}
+
+#about {
+    background-color: #FFF8DC; /* Cornsilk */
+    color: #333333; /* Dark Gray for text */
+    padding: 50px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+#about p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+#about p:last-child {
+    margin-bottom: 0;
+}
+
+#contact {
+    background-color: #582f0e;
+    color:  #F5F5DC;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+#contact h2 {
+    margin-bottom: 11px;
+}
+
+#contact p {
+    margin: 5px;
+}
+
+#contact ul > li {
+    margin-bottom: 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333; /* Dark Gray */
+    font-size: 1em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Adds a smooth transition effect */
+}
+
+nav ul li a:hover {
+    background-color: #333333; /* Dark Gray background on hover */
+    color: #F5F5DC; /* Light Beige text color on hover */
 }
