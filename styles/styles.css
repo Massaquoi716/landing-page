@@ -113,8 +113,8 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     
+    background-color: #98FB98;
     
 
 }
@@ -123,7 +123,7 @@ button {
 
 #products ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -131,5 +131,13 @@ button {
     border: 1px solid #fff;
     width: 300px;
     height: 300px;
+    display: block;
+    margin: 0.1rem;
+}
+
+li > img {
+    border: 1px solid #fff;
+    width: 300px;
+    
     display: block;
 }
